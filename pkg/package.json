@@ -1,0 +1,15 @@
+{
+  "name": "kya-pata",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "kya_pata_bg.wasm",
+    "kya_pata.js",
+    "kya_pata.d.ts"
+  ],
+  "main": "kya_pata.js",
+  "types": "kya_pata.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
