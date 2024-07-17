@@ -1,0 +1,12 @@
+[package]
+name = "kya-pata"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.78"
+cron = "0.12.0"  # Library for parsing cron expressions
+chrono = { version = "0.4", features = ["serde"] }  # For time manipulation
